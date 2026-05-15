@@ -1,3 +1,20 @@
+# datasets (large files committed separately)
+datasets/browsecomp/*.jsonl
+datasets/browsecomp/*.csv
+datasets/browsecomp/*.parquet
+
+# temporal local data
+.temporal/
+
+# artifacts from eval runs
+artifacts/
+
+# uv
+uv.lock
+
+# ruff
+.ruff_cache/
+
 # macOS
 .DS_Store
 .AppleDouble
