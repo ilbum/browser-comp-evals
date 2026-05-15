@@ -1,0 +1,37 @@
+[
+  {
+    "id": "browsecomp_0000",
+    "benchmark": "browsecomp",
+    "question": "What is the ICAO airport code for the main international airport serving the capital of Iceland?",
+    "expected_answer": "BIRK",
+    "metadata": {"difficulty": "easy"}
+  },
+  {
+    "id": "browsecomp_0001",
+    "benchmark": "browsecomp",
+    "question": "In what year was the Eiffel Tower officially opened to the public?",
+    "expected_answer": "1889",
+    "metadata": {"difficulty": "easy"}
+  },
+  {
+    "id": "browsecomp_0002",
+    "benchmark": "browsecomp",
+    "question": "What is the exact molecular weight (in g/mol, to two decimal places) of the compound formed when sodium reacts with chlorine?",
+    "expected_answer": "58.44",
+    "metadata": {"difficulty": "medium", "note": "alias grading edge case — NaCl vs sodium chloride"}
+  },
+  {
+    "id": "browsecomp_0003",
+    "benchmark": "browsecomp",
+    "question": "Who authored the 14th paper listed in the proceedings of NeurIPS 1993?",
+    "expected_answer": "unknown",
+    "metadata": {"difficulty": "impossible_under_budget", "note": "tests budget exhaustion path"}
+  },
+  {
+    "id": "browsecomp_0004",
+    "benchmark": "browsecomp",
+    "question": "What is the capital city of Australia?",
+    "expected_answer": "Canberra",
+    "metadata": {"difficulty": "easy"}
+  }
+]
